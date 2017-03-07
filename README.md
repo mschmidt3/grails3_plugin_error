@@ -34,7 +34,7 @@ grails run-app
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/media/data/michael/Projekte/grails/3.2.7/plugintest/myapp/build.gradle' line: 28
+Build file './myapp/build.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating project ':myapp'.
