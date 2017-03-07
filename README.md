@@ -7,18 +7,32 @@ Test Grails 3 Plugin
 
 
 ```
+gradle -version
+
+------------------------------------------------------------
+Gradle 3.4
+------------------------------------------------------------
+
+Build time:   2017-02-20 14:49:26 UTC
+Revision:     73f32d68824582945f5ac1810600e8d87794c3d4
+
+Groovy:       2.4.7
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_121 (Oracle Corporation 25.121-b13)
+OS:           Linux 4.4.0-64-generic amd64
+
 grails -version
 | Grails Version: 3.2.7
 | Groovy Version: 2.4.7
 | JVM Version: 1.8.0_121
 
-grails create-app myapp
+grails create-app mynewapp
 grails create-plugin myplugin
 ```
 create settings.gradle:
 
 ```
-include "myapp", "myplugin"
+include "mynewapp", "myplugin"
 ```
 
 Within the build.gradle of the application declare a dependency on the plugin within the plugins block
@@ -34,10 +48,10 @@ grails run-app
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file './myapp/build.gradle' line: 28
+Build file './mynewapp/build.gradle' line: 28
 
 * What went wrong:
-A problem occurred evaluating project ':myapp'.
+A problem occurred evaluating project ':mynewapp'.
 > org.gradle.util.ConfigureUtil.configureSelf(Lgroovy/lang/Closure;Ljava/lang/Object;)Ljava/lang/Object;
 
 * Try:
