@@ -1,4 +1,4 @@
-Test Garils 3 Plugin
+Test Grails 3 Plugin
 ==============================
 
 ... as described in doc http://docs.grails.org/latest/guide/plugins.html
