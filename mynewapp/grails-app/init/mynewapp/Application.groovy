@@ -1,4 +1,4 @@
-package myapp
+package mynewapp
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
